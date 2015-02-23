@@ -25,7 +25,7 @@ gulp.task('styles', ['components'], function() {
   .pipe(gulp.dest(asset_path+'/css/'))
   .pipe(rename('app.min.css'))
   .pipe(minifyCSS())
-  .pipe(sourcemaps.write())
+  //.pipe(sourcemaps.write())
   .pipe(gulp.dest(asset_path+'/css/'));
 });
 
