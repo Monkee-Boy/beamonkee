@@ -398,6 +398,14 @@ body {
 a {
   text-decoration: none; }
 
+p, li {
+  font-size: 18px;
+  line-height: 1.6; }
+
+ul, ol {
+  margin: 0;
+  padding-left: 23px; }
+
 .row {
   position: relative;
   max-width: 1170px;
@@ -470,9 +478,10 @@ a {
     margin: 0 0 20px;
     font-size: 70px; }
   .job p.intro {
-    font-size: 42px; }
+    font-size: 42px;
+    line-height: 1.2; }
   .job ul li {
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     list-style: square; }
 
 
