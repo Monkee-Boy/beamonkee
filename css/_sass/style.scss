@@ -1,0 +1,144 @@
+@import "../../bower_components/normalize.css/_normalize",
+        "../../bower_components/monkee-mixins/_mixins",
+        "_import/functions";
+
+body {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  position: relative;
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow: hidden;
+}
+
+.job {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  .full-panel {
+
+  }
+
+  .panel-inside {
+    position: relative;
+    float: right;
+    padding: 50px 0;
+    width: 770px;
+  }
+
+  .panel-start {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(/images/panel-start.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .panel {
+
+  }
+
+  .row {
+    &:before {
+      content: attr(data-count);
+      font-weight: bold;
+      font-size: 700px;
+      position: absolute;
+      z-index: 0;
+      bottom: 80px;
+      left: 0;
+      line-height: 0.54;
+    }
+  }
+
+  .panel-dark {
+    color: #fff;
+    background: #242529;
+
+    .row:before {
+      color: #1c1d20;
+    }
+
+    h2 {
+      color: #fcc721;
+    }
+
+    a {
+      color: #90af17;
+
+      &:hover, &:focus {
+        color: #708d01;
+      }
+    }
+  }
+
+  .panel-highlight {
+    color: #fff;
+    background: #90af17;
+
+    .row:before {
+      color: #708d01;
+    }
+
+    h2 {
+      color: #fff;
+    }
+
+    a {
+      color: #242529;
+
+      &:hover, &:focus {
+        color: #1c1d20;
+      }
+    }
+  }
+
+  .panel-light {
+    color: #19181d;
+    background: #e5e5e5;
+
+    .row:before {
+      color: #c6c4c4;
+    }
+
+    h2 {
+      color: #24a390;
+    }
+
+    a {
+      color: #fcc721;
+
+      &:hover, &:focus {
+        color: #e1b017;
+      }
+    }
+  }
+
+  h2 {
+    margin: 0 0 20px;
+    font-size: 70px;
+  }
+
+  p.intro {
+    font-size: 42px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    list-style: square;
+  }
+}

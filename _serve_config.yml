@@ -1,0 +1,8 @@
+# Site settings
+title: Monkee-Boy Join The Troop
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jointhetroop.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: ['config/', 'Capfile', 'node_modules']
