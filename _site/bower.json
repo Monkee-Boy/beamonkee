@@ -5,6 +5,7 @@
     "jquery": "2.1.3",
     "susy": "2.2.1",
     "monkee-mixins": "latest",
-    "normalize.css": "latest"
+    "normalize.css": "latest",
+    "photoset-grid": "1.0.1"
   }
 }
