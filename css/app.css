@@ -519,4 +519,11 @@ ul, ol {
     margin-bottom: 14px;
     list-style: square; }
 
+.monkee-head {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  z-index: 0;
+  opacity: 0.2; }
+
 
