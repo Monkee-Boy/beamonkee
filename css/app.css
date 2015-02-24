@@ -439,7 +439,10 @@ ul, ol {
       width: 900px;
       float: none;
       margin: 0 auto;
-      text-align: center; }
+      text-align: center;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
     .job .panel-start h1 {
       margin-top: 75px;
       text-transform: uppercase; }

@@ -66,6 +66,9 @@ ul, ol {
       float: none;
       margin: 0 auto;
       text-align: center;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
     }
 
     h1 {
