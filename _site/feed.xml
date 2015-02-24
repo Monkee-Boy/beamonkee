@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Feb 2015 14:26:48 -0600</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2015 14:26:48 -0600</lastBuildDate>
+    <pubDate>Tue, 24 Feb 2015 16:06:18 -0600</pubDate>
+    <lastBuildDate>Tue, 24 Feb 2015 16:06:18 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,7 +14,10 @@
         <description>&lt;section class=&quot;panel panel-start full-panel&quot;&gt;
   &lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;panel-inside&quot;&gt;
-      &lt;h1&gt;Do you have what it takes to be our next Front-End Developer&lt;/h1&gt;
+      &lt;h1&gt;Do you have what it takes&lt;br /&gt;
+        &lt;span&gt;to be&lt;/span&gt;
+        our next Front-End&lt;br /&gt;
+        &lt;strong&gt;Developer?&lt;/strong&gt;&lt;/h1&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;

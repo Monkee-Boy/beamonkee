@@ -4,8 +4,12 @@
 
 body {
   color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 22px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "effra";
 }
 
 a {
@@ -56,6 +60,48 @@ ul, ol {
     overflow: hidden;
     background: url(/images/panel-start.jpg) no-repeat center center fixed;
     background-size: cover;
+
+    .panel-inside {
+      width: 900px;
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 75px;
+      text-transform: uppercase;
+
+      span {
+        font-size: 30px;
+        text-transform: none;
+        font-weight: normal;
+        display: table;
+        white-space: nowrap;
+        margin: 0 auto;
+
+        &:before, &:after {
+          border-top: 1px solid #fff;
+          content: '';
+          display: table-cell;
+          position: relative;
+          top: 0.7em;
+          width: 25%;
+        }
+
+        &:before {
+          right: 7%;
+        }
+
+        &:after {
+          left: 7%;
+        }
+      }
+
+      strong {
+        font-size: 145px;
+      }
+    }
   }
 
   .panel {
@@ -64,13 +110,14 @@ ul, ol {
 
   .row {
     &:before {
-      content: attr(data-count);
-      font-weight: bold;
-      font-size: 700px;
       position: absolute;
       z-index: 0;
       bottom: 80px;
       left: 0;
+      content: attr(data-count);
+      font-weight: bold;
+      font-size: 700px;
+      font-family: effra;
       line-height: 0.54;
     }
   }
