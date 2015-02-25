@@ -253,21 +253,27 @@ ul, ol {
 
 .panel-culture {
   .panel-inside {
-    width: 525px;
+    // width: 525px;
+    width: 48%;
 
-    @media only screen and (max-width: 64.063em) {
+    @media only screen and (max-width: 40.063em) {
       width: 100%;
     }
   }
 }
 
-.photoset-grid-basic {
+.photogrid-wrapper {
+  width: 48%;
   float: left;
   padding-top: 50px;
 
-  @media only screen and (max-width: 64.063em) {
+  @media only screen and (max-width: 40.063em) {
     display: none;
   }
+}
+
+.photoset-grid-basic {
+
 }
 
 .monkee-head {

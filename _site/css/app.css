@@ -553,16 +553,17 @@ ul, ol {
       width: 100%; } }
 
 .panel-culture .panel-inside {
-  width: 525px; }
-  @media only screen and (max-width: 64.063em) {
+  width: 48%; }
+  @media only screen and (max-width: 40.063em) {
     .panel-culture .panel-inside {
       width: 100%; } }
 
-.photoset-grid-basic {
+.photogrid-wrapper {
+  width: 48%;
   float: left;
   padding-top: 50px; }
-  @media only screen and (max-width: 64.063em) {
-    .photoset-grid-basic {
+  @media only screen and (max-width: 40.063em) {
+    .photogrid-wrapper {
       display: none; } }
 
 .monkee-head {

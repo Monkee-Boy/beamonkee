@@ -2371,5 +2371,5 @@
 	$(function(){$.validationEngine.defaults.promptPosition = methods.isRTL()?'topLeft':"topRight"});
 })(jQuery);
 
-$('.photoset-grid-basic').photosetGrid({ width: '600px', gutter: '5px' });
+$('.photoset-grid-basic').photosetGrid({ gutter: '5px' });
 $('.job-application').validationEngine('attach', { promptPosition : "bottomLeft", scroll: false });
