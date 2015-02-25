@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Feb 2015 17:18:03 -0600</pubDate>
-    <lastBuildDate>Tue, 24 Feb 2015 17:18:03 -0600</lastBuildDate>
+    <pubDate>Wed, 25 Feb 2015 09:42:01 -0600</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2015 09:42:01 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -138,7 +138,67 @@
     &lt;div class=&quot;panel-inside&quot; style=&quot;width: 500px;margin: 0 auto;float: none;&quot;&gt;
       &lt;h2&gt;The Application&lt;/h2&gt;
 
-      &lt;div id=&quot;wufoo-q12olu071194j2s&quot;&gt;Complete the &lt;a href=&quot;https://monkeeboy.wufoo.com/forms/q12olu071194j2s&quot;&gt;online application&lt;/a&gt;.&lt;/div&gt;
+      &lt;form method=&quot;POST&quot; action=&quot;&quot;&gt;
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field1&quot;&gt;Resume/CV&lt;/label&gt;
+          &lt;input type=&quot;file&quot; id=&quot;Field1&quot; name=&quot;Field1&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field4&quot;&gt;Full Name&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field4&quot; name=&quot;Field4&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field5&quot;&gt;Email&lt;/label&gt;
+          &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;Field5&quot; name=&quot;Field5&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field6&quot;&gt;Phone&lt;/label&gt;
+          &lt;input type=&quot;tel&quot; class=&quot;form-control&quot; id=&quot;Field6&quot; name=&quot;Field6&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;h3&gt;Links&lt;/h3&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field8&quot;&gt;LinkedIn URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field8&quot; name=&quot;Field8&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field9&quot;&gt;GitHub/Bitbucket URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field9&quot; name=&quot;Field9&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field11&quot;&gt;Portfolio/Blog URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field12&quot;&gt;Examples of your work/code (CodePen, jsFiddle, sites you&#39;ve coded, etc)&lt;/label&gt;
+          &lt;textarea class=&quot;form-control&quot; rows=&quot;7&quot; id=&quot;Field12&quot; name=&quot;Field12&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+
+         &lt;h3&gt;More About You&lt;/h3&gt;
+
+         &lt;div class=&quot;form-group&quot;&gt;
+           &lt;label for=&quot;Field14&quot;&gt;Why are you interested in working at Monkee-Boy?&lt;/label&gt;
+           &lt;textarea class=&quot;form-control&quot; rows=&quot;5&quot; id=&quot;Field14&quot; name=&quot;Field14&quot;&gt;&lt;/textarea&gt;
+         &lt;/div&gt;
+
+         &lt;h3&gt;Additional Information&lt;/h3&gt;
+
+         &lt;div class=&quot;form-group&quot;&gt;
+           &lt;label for=&quot;Field16&quot;&gt;Anything else we should know?&lt;/label&gt;
+           &lt;textarea class=&quot;form-control&quot; rows=&quot;5&quot; id=&quot;Field16&quot; name=&quot;Field16&quot;&gt;&lt;/textarea&gt;
+         &lt;/div&gt;
+
+         &lt;input class=&quot;btn&quot; type=&quot;submit&quot; value=&quot;Apply&quot;&gt;
+       &lt;/form&gt;
+
+      &lt;!-- &lt;div id=&quot;wufoo-q12olu071194j2s&quot;&gt;Complete the &lt;a href=&quot;https://monkeeboy.wufoo.com/forms/q12olu071194j2s&quot;&gt;online application&lt;/a&gt;.&lt;/div&gt;
       &lt;script type=&quot;text/javascript&quot;&gt;var q12olu071194j2s;(function(d, t) {
       var s = d.createElement(t), options = {
       &#39;userName&#39;:&#39;monkeeboy&#39;,
@@ -148,13 +208,13 @@
       &#39;async&#39;:true,
       &#39;host&#39;:&#39;wufoo.com&#39;,
       &#39;header&#39;:&#39;hide&#39;,
-      &#39;ssl&#39;:true};
+      &#39;ssl&#39;:false};
       s.src = (&#39;https:&#39; == d.location.protocol ? &#39;https://&#39; : &#39;http://&#39;) + &#39;www.wufoo.com/scripts/embed/form.js&#39;;
       s.onload = s.onreadystatechange = function() {
       var rs = this.readyState; if (rs) if (rs != &#39;complete&#39;) if (rs != &#39;loaded&#39;) return;
       try { q12olu071194j2s = new WufooForm();q12olu071194j2s.initialize(options);q12olu071194j2s.display(); } catch (e) {}};
       var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-      })(document, &#39;script&#39;);&lt;/script&gt;
+      })(document, &#39;script&#39;);&lt;/script&gt; --&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;

@@ -6,6 +6,7 @@
     "susy": "2.2.1",
     "monkee-mixins": "latest",
     "normalize.css": "latest",
-    "photoset-grid": "1.0.1"
+    "photoset-grid": "1.0.1",
+    "bootstrap-sass": "latest"
   }
 }
