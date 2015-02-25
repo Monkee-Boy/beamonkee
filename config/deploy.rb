@@ -14,7 +14,7 @@ set :current_dir, 'public_html' # almost always public_html
 # set :linked_files, fetch(:linked_files, []).push('') # Note that this file must exist on the server already, Capistrano will not create it.
 
 # Default value for linked_dirs is []
-set :linked_dirs, %w{node_modules bower_components}
+set :linked_dirs, %w{node_modules bower_components wufoo}
 
 namespace :deploy do
   STDOUT.sync
