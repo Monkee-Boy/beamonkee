@@ -13,7 +13,7 @@ var asset_path = '.';
 
 var paths = {
   styles: asset_path+'/css/_sass/style.scss',
-  scripts: [asset_path+'/js/plugins.js', asset_path+'/js/main.js']
+  scripts: [asset_path+'/js/plugins.js', asset_path+'/js/validation/jquery.validationEngine-en.js', asset_path+'/js/validation/jquery.validationEngine.js', asset_path+'/js/main.js']
 };
 
 gulp.task('styles', ['components'], function() {
