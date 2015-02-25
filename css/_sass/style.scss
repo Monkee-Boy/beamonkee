@@ -297,4 +297,8 @@ input[type="submit"] {
   background: #90af17;
   color: #fff;
   border-radius: 4px;
+
+  &:hover, &:focus {
+    background: #708d01;
+  }
 }
