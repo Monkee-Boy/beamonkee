@@ -33,6 +33,12 @@ ul, ol {
   margin: 0 auto;
   padding: 0 40px;
   overflow: hidden;
+
+  @media only screen and (max-width: 64.063em) {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
 }
 
 .job {
@@ -51,6 +57,10 @@ ul, ol {
     float: right;
     padding: 50px 0;
     width: 770px;
+
+    @media only screen and (max-width: 64.063em) {
+      width: 100%;
+    }
   }
 
   .panel-start {
@@ -69,6 +79,13 @@ ul, ol {
       position: relative;
       top: 50%;
       transform: translateY(-50%);
+
+      @media only screen and (max-width: 64.063em) {
+        width: 100%;
+        padding: 0;
+        top: 0;
+        transform: inherit;
+      }
     }
 
     h1 {
@@ -103,6 +120,16 @@ ul, ol {
 
       strong {
         font-size: 145px;
+      }
+
+      @media only screen and (max-width: 64.063em) {
+        strong {
+          font-size: inherit;
+        }
+
+        br {
+          display: none;
+        }
       }
     }
   }
@@ -191,16 +218,55 @@ ul, ol {
   h2 {
     margin: 0 0 20px;
     font-size: 70px;
+
+    @media only screen and (max-width: 64.063em) {
+      font-size: 45px;
+    }
   }
 
   p.intro {
     font-size: 42px;
     line-height: 1.2;
+
+    @media only screen and (max-width: 64.063em) {
+      font-size: 30px;
+    }
   }
 
   ul li {
     margin-bottom: 14px;
     list-style: square;
+  }
+}
+
+.panel-apply {
+  .panel-inside {
+    width: 500px;
+    margin: 0 auto;
+    float: none;
+
+    @media only screen and (max-width: 64.063em) {
+      width: 100%;
+    }
+  }
+}
+
+.panel-culture {
+  .panel-inside {
+    width: 525px;
+
+    @media only screen and (max-width: 64.063em) {
+      width: 100%;
+    }
+  }
+}
+
+.photoset-grid-basic {
+  float: left;
+  padding-top: 50px;
+
+  @media only screen and (max-width: 64.063em) {
+    display: none;
   }
 }
 
@@ -211,7 +277,6 @@ ul, ol {
   z-index: 0;
   opacity: 0.2;
 }
-
 
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables",
         "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins",

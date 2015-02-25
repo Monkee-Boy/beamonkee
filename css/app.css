@@ -416,6 +416,11 @@ ul, ol {
   margin: 0 auto;
   padding: 0 40px;
   overflow: hidden; }
+  @media only screen and (max-width: 64.063em) {
+    .row {
+      width: 100%;
+      max-width: 100%;
+      padding: 0; } }
 
 .job {
   position: absolute;
@@ -428,6 +433,9 @@ ul, ol {
     float: right;
     padding: 50px 0;
     width: 770px; }
+    @media only screen and (max-width: 64.063em) {
+      .job .panel-inside {
+        width: 100%; } }
   .job .panel-start {
     position: relative;
     width: 100%;
@@ -443,6 +451,12 @@ ul, ol {
       position: relative;
       top: 50%;
       transform: translateY(-50%); }
+      @media only screen and (max-width: 64.063em) {
+        .job .panel-start .panel-inside {
+          width: 100%;
+          padding: 0;
+          top: 0;
+          transform: inherit; } }
     .job .panel-start h1 {
       margin-top: 75px;
       text-transform: uppercase; }
@@ -466,6 +480,11 @@ ul, ol {
           left: 7%; }
       .job .panel-start h1 strong {
         font-size: 145px; }
+      @media only screen and (max-width: 64.063em) {
+        .job .panel-start h1 strong {
+          font-size: inherit; }
+        .job .panel-start h1 br {
+          display: none; } }
   .job .row:before {
     position: absolute;
     z-index: 0;
@@ -512,12 +531,39 @@ ul, ol {
   .job h2 {
     margin: 0 0 20px;
     font-size: 70px; }
+    @media only screen and (max-width: 64.063em) {
+      .job h2 {
+        font-size: 45px; } }
   .job p.intro {
     font-size: 42px;
     line-height: 1.2; }
+    @media only screen and (max-width: 64.063em) {
+      .job p.intro {
+        font-size: 30px; } }
   .job ul li {
     margin-bottom: 14px;
     list-style: square; }
+
+.panel-apply .panel-inside {
+  width: 500px;
+  margin: 0 auto;
+  float: none; }
+  @media only screen and (max-width: 64.063em) {
+    .panel-apply .panel-inside {
+      width: 100%; } }
+
+.panel-culture .panel-inside {
+  width: 525px; }
+  @media only screen and (max-width: 64.063em) {
+    .panel-culture .panel-inside {
+      width: 100%; } }
+
+.photoset-grid-basic {
+  float: left;
+  padding-top: 50px; }
+  @media only screen and (max-width: 64.063em) {
+    .photoset-grid-basic {
+      display: none; } }
 
 .monkee-head {
   position: absolute;
