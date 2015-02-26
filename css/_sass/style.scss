@@ -276,6 +276,18 @@ ul, ol {
 
 }
 
+.openings {
+  a {
+    font-size: 34px;
+    font-weight: bold;
+    color: #fff;
+
+    &:hover, &:focus {
+      color: #fcc721;
+    }
+  }
+}
+
 .monkee-head {
   position: absolute;
   bottom: 10px;

@@ -566,6 +566,13 @@ ul, ol {
     .photogrid-wrapper {
       display: none; } }
 
+.openings a {
+  font-size: 34px;
+  font-weight: bold;
+  color: #fff; }
+  .openings a:hover, .openings a:focus {
+    color: #fcc721; }
+
 .monkee-head {
   position: absolute;
   bottom: 10px;
