@@ -566,16 +566,16 @@ ul, ol {
     .photogrid-wrapper {
       display: none; } }
 
-.openings {
+.job ul.openings {
   margin: 0;
   padding: 0; }
-  .openings li {
+  .job ul.openings li {
     list-style: none; }
-  .openings a {
+  .job ul.openings a {
     font-size: 34px;
     font-weight: bold;
     color: #fff; }
-    .openings a:hover, .openings a:focus {
+    .job ul.openings a:hover, .job ul.openings a:focus {
       color: #fcc721; }
 
 .monkee-head {
