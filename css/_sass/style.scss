@@ -277,6 +277,13 @@ ul, ol {
 }
 
 .openings {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+
   a {
     font-size: 34px;
     font-weight: bold;

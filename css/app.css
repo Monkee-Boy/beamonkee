@@ -566,12 +566,17 @@ ul, ol {
     .photogrid-wrapper {
       display: none; } }
 
-.openings a {
-  font-size: 34px;
-  font-weight: bold;
-  color: #fff; }
-  .openings a:hover, .openings a:focus {
-    color: #fcc721; }
+.openings {
+  margin: 0;
+  padding: 0; }
+  .openings li {
+    list-style: none; }
+  .openings a {
+    font-size: 34px;
+    font-weight: bold;
+    color: #fff; }
+    .openings a:hover, .openings a:focus {
+      color: #fcc721; }
 
 .monkee-head {
   position: absolute;
