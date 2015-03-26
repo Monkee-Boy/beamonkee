@@ -570,9 +570,9 @@ ul, ol {
   margin: 0;
   padding: 0; }
   .wrapper ul.openings li {
-    list-style: none; }
+    list-style: none;
+    font-size: 34px; }
   .wrapper ul.openings a {
-    font-size: 34px;
     font-weight: bold;
     color: #fff; }
     .wrapper ul.openings a:hover, .wrapper ul.openings a:focus {

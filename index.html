@@ -9,23 +9,18 @@ layout: default
           Current Openings</h1>
 
         <ul class="openings">
-          {% for post in site.posts %}
-            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} &raquo;</a></li>
-          {% endfor %}
+          {% if site.categories.open == null %}
+            <li>Check out our <a href="http://www.monkee-boy.com/who/join-the-troop/">website</a> for other openings.</li>
+          {% else %}
+            {% for post in site.categories.open %}
+              <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} &raquo;</a></li>
+            {% endfor %}
+          {% endif %}
         </ul>
       </div>
     </div>
   </section>
 
   <section class="panel panel-light full-panel">
-    <div class="row" data-count="">
-      <img src="/images/monkee-head.png" class="monkee-head">
-      <div class="panel-inside">
-        <h2>Monkee-Boy</h2>
-
-        <p class="intro">We are a boutique web service firm focused on user experience, design, development, inbound marketing, measurement, and maintenance.</p>
-
-        <p>Founded in 1998 by Aaron Bramwell, Monkee-Boy has evolved from a small, two-person web design and development shop to a full-service web, mobile, and marketing team based in one of the greatest cities in the world: Austin, TX. For 16 years we've been helping clients achieve their goals on the web by finding custom solutions that do two things: solve your unique problem and deliver tangible results.</p>
-      </div>
-    </div>
+    {% include about-monkee-boy.html %}
   </section>
