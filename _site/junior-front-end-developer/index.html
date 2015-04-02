@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Junior Front End Developer</title>
-  <meta name="description" content="            Do you have what it takes        to be        our next junior Front-End        Developer?        THIS POSITION HAS BEEN FILLED.      ">
+  <meta name="description" content="            Do you have what it takes        to be        our next junior Front-End        Developer?      ">
 
   <link rel="canonical" href="http://jointhetroop.com/junior-front-end-developer">
   <link rel="alternate" type="application/rss+xml" title="Join The Monkee-Boy Troop" href="http://jointhetroop.com/feed.xml" />
@@ -52,8 +52,7 @@
       <h1>Do you have what it takes<br />
         <span>to be</span>
         our next junior Front-End<br />
-        <strong>Developer?</strong><br />
-        THIS POSITION HAS BEEN FILLED.</h1>
+        <strong>Developer?</strong></h1>
     </div>
   </div>
 </section>
@@ -185,11 +184,69 @@
 </section>
 
 <section class="panel panel-light full-panel panel-apply">
-  <div class="row" data-count="">
+  <div class="row" data-count="7">
     <div class="panel-inside">
       <h2>The Application</h2>
 
-      <p>We are no longer accepting applications for the Junior Front End Developer position. After receiving lots of great applications we were able to fill the position. Thanks to everyone who took an interest in Monkee-Boy and this position.</p>
+      <form method="POST" action="/wufoo/wufoo.php" enctype="multipart/form-data" class="job-application">
+        <div class="form-group">
+          <label for="Field1">* Resume/CV</label>
+          <input type="file" id="Field1" name="Field1" class="validate[required]">
+        </div>
+
+        <div class="form-group">
+          <label for="Field4">* Full Name</label>
+          <input type="text" class="form-control validate[required]" id="Field4" name="Field4">
+        </div>
+
+        <div class="form-group">
+          <label for="Field5">* Email</label>
+          <input type="email" class="form-control validate[required,custom[email]]" id="Field5" name="Field5">
+        </div>
+
+        <div class="form-group">
+          <label for="Field18">* Phone</label>
+          <input type="tel" class="form-control validate[required,custom[phone]]" id="Field18" name="Field18">
+        </div>
+
+        <h3>Links</h3>
+
+        <div class="form-group">
+          <label for="Field8">LinkedIn URL</label>
+          <input type="text" class="form-control validate[custom[url]]" id="Field8" name="Field8">
+        </div>
+
+        <div class="form-group">
+          <label for="Field9">GitHub/Bitbucket URL</label>
+          <input type="text" class="form-control" id="Field9" name="Field9">
+        </div>
+
+        <div class="form-group">
+          <label for="Field11">Portfolio/Blog URL</label>
+          <input type="text" class="form-control validate[custom[url]]" id="Field11" name="Field11">
+        </div>
+
+        <div class="form-group">
+          <label for="Field12">Examples of your work/code (CodePen, jsFiddle, sites you've coded, etc)</label>
+          <textarea class="form-control" rows="7" id="Field12" name="Field12"></textarea>
+        </div>
+
+         <h3>More About You</h3>
+
+         <div class="form-group">
+           <label for="Field14">* Why are you interested in working at Monkee-Boy?</label>
+           <textarea class="form-control validate[required]" rows="5" id="Field14" name="Field14"></textarea>
+         </div>
+
+         <h3>Additional Information</h3>
+
+         <div class="form-group">
+           <label for="Field16">Anything else we should know?</label>
+           <textarea class="form-control" rows="5" id="Field16" name="Field16"></textarea>
+         </div>
+
+         <input class="btn" type="submit" value="Apply">
+       </form>
     </div>
   </div>
 </section>
