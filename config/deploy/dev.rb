@@ -17,4 +17,4 @@ server 'habitat.monkee-boy.com', user: 'deploy', roles: %w{web}
 
 set :deploy_to, '/var/www/jointhetroop.com/dev'
 set :deploy_env, 'dev'
-set :branch, 'master'
+set :branch, 'dev'
