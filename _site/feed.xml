@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Apr 2015 10:08:53 -0500</pubDate>
-    <lastBuildDate>Thu, 09 Apr 2015 10:08:53 -0500</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2015 10:24:05 -0500</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2015 10:24:05 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -323,85 +323,30 @@
   &lt;/div&gt;
 &lt;/section&gt;
 
-&lt;section class=&quot;panel panel-light full-panel panel-apply&quot;&gt;
+&lt;section class=&quot;panel panel-light full-panel panel-apply-alt&quot;&gt;
   &lt;div class=&quot;row&quot; data-count=&quot;7&quot;&gt;
     &lt;div class=&quot;panel-inside&quot;&gt;
       &lt;h2&gt;The Application&lt;/h2&gt;
 
       &lt;p&gt;&lt;strong&gt;Please note&lt;/strong&gt;: part of the application process is being creative and coding a kick ass weather widget. This is required for your application to be reviewed. The full details can be found at &lt;a href=&quot;http://codepen.io/fleeting/pen/azgZzx&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 
-      &lt;form method=&quot;POST&quot; action=&quot;/wufoo/wufoo-fed.php&quot; enctype=&quot;multipart/form-data&quot; class=&quot;job-application&quot;&gt;
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field1&quot;&gt;* Resume/CV&lt;/label&gt;
-          &lt;input type=&quot;file&quot; id=&quot;Field1&quot; name=&quot;Field1&quot; class=&quot;validate[required]&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field4&quot;&gt;* Full Name&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field4&quot; name=&quot;Field4&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field5&quot;&gt;* Email&lt;/label&gt;
-          &lt;input type=&quot;email&quot; class=&quot;form-control validate[required,custom[email]]&quot; id=&quot;Field5&quot; name=&quot;Field5&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field18&quot;&gt;* Phone&lt;/label&gt;
-          &lt;input type=&quot;tel&quot; class=&quot;form-control validate[required,custom[phone]]&quot; id=&quot;Field18&quot; name=&quot;Field18&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field22&quot;&gt;* Code Experiment (CodePen URL)&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field22&quot; name=&quot;Field22&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field21&quot;&gt;* Describe your daily tasks in your current position?&lt;/label&gt;
-          &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field21&quot; name=&quot;Field21&quot;&gt;&lt;/textarea&gt;
-        &lt;/div&gt;
-
-        &lt;h3&gt;Links&lt;/h3&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field8&quot;&gt;LinkedIn URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[custom[url]]&quot; id=&quot;Field8&quot; name=&quot;Field8&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field9&quot;&gt;* GitHub/Bitbucket URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field9&quot; name=&quot;Field9&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field11&quot;&gt;Portfolio/Blog URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[custom[url]]&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field12&quot;&gt;Examples of your work/code (sites you have coded, CodePen, jsFiddle, personal projects, etc)&lt;/label&gt;
-          &lt;textarea class=&quot;form-control&quot; rows=&quot;7&quot; id=&quot;Field12&quot; name=&quot;Field12&quot;&gt;&lt;/textarea&gt;
-        &lt;/div&gt;
-
-         &lt;h3&gt;Additional Information&lt;/h3&gt;
-
-         &lt;div class=&quot;form-group&quot;&gt;
-           &lt;label for=&quot;Field14&quot;&gt;* Why are you interested in working at Monkee-Boy?&lt;/label&gt;
-           &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field14&quot; name=&quot;Field14&quot;&gt;&lt;/textarea&gt;
-         &lt;/div&gt;
-
-         &lt;div class=&quot;form-group&quot;&gt;
-           &lt;label for=&quot;Field20&quot;&gt;* Compensation Requirements (hourly or annually)&lt;/label&gt;
-           &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field20&quot; name=&quot;Field20&quot;&gt;
-         &lt;/div&gt;
-
-         &lt;div class=&quot;form-group&quot;&gt;
-           &lt;label for=&quot;Field16&quot;&gt;Anything else we should know?&lt;/label&gt;
-           &lt;textarea class=&quot;form-control&quot; rows=&quot;5&quot; id=&quot;Field16&quot; name=&quot;Field16&quot;&gt;&lt;/textarea&gt;
-         &lt;/div&gt;
-
-         &lt;input class=&quot;btn&quot; type=&quot;submit&quot; value=&quot;Apply&quot;&gt;
-       &lt;/form&gt;
+      &lt;div id=&quot;wufoo-qb9nahh1pojkq2&quot;&gt;Fill out my &lt;a href=&quot;https://monkeeboy.wufoo.com/forms/qb9nahh1pojkq2&quot;&gt;online form&lt;/a&gt;.&lt;/div&gt;
+      &lt;script type=&quot;text/javascript&quot;&gt;var qb9nahh1pojkq2;(function(d, t) {
+      var s = d.createElement(t), options = {
+      &#39;userName&#39;:&#39;monkeeboy&#39;,
+      &#39;formHash&#39;:&#39;qb9nahh1pojkq2&#39;,
+      &#39;autoResize&#39;:true,
+      &#39;height&#39;:&#39;1606&#39;,
+      &#39;async&#39;:true,
+      &#39;host&#39;:&#39;wufoo.com&#39;,
+      &#39;header&#39;:&#39;hide&#39;,
+      &#39;ssl&#39;:false};
+      s.src = (&#39;https:&#39; == d.location.protocol ? &#39;https://&#39; : &#39;http://&#39;) + &#39;www.wufoo.com/scripts/embed/form.js&#39;;
+      s.onload = s.onreadystatechange = function() {
+      var rs = this.readyState; if (rs) if (rs != &#39;complete&#39;) if (rs != &#39;loaded&#39;) return;
+      try { qb9nahh1pojkq2 = new WufooForm();qb9nahh1pojkq2.initialize(options);qb9nahh1pojkq2.display(); } catch (e) {}};
+      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+      })(document, &#39;script&#39;);&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;
