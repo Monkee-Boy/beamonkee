@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Apr 2015 19:26:20 -0500</pubDate>
-    <lastBuildDate>Wed, 01 Apr 2015 19:26:20 -0500</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2015 10:08:53 -0500</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2015 10:08:53 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -170,6 +170,248 @@
         
         
         <category>open</category>
+        
+      </item>
+    
+      <item>
+        <title>Front End Developer</title>
+        <description>&lt;section class=&quot;panel panel-start full-panel&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;panel-inside&quot;&gt;
+      &lt;h1&gt;Do you have what it takes&lt;br /&gt;
+        &lt;span&gt;to be&lt;/span&gt;
+        our next Front-End&lt;br /&gt;
+        &lt;strong&gt;Developer?&lt;/strong&gt;&lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;panel panel-light full-panel&quot;&gt;
+  &lt;div class=&quot;row&quot; data-count=&quot;&quot;&gt;
+  &lt;img src=&quot;/images/monkee-head.png&quot; class=&quot;monkee-head&quot;&gt;
+  &lt;div class=&quot;panel-inside&quot;&gt;
+    &lt;h2&gt;Monkee-Boy&lt;/h2&gt;
+
+    &lt;p class=&quot;intro&quot;&gt;We are a boutique web service firm focused on user experience, design, development, inbound marketing, measurement, and maintenance.&lt;/p&gt;
+
+    &lt;p&gt;Founded in 1998 by Aaron Bramwell, Monkee-Boy has evolved from a small, two-person web design and development shop to a full-service web, mobile, and marketing team based in one of the greatest cities in the world: Austin, TX. For 16 years we&#39;ve been helping clients achieve their goals on the web by finding custom solutions that do two things: solve your unique problem and deliver tangible results. Don&#39;t forget to checkout our site at &lt;a href=&quot;http://www.monkee-boy.com&quot;&gt;monkee-boy.com&lt;/a&gt; for more about us and our work.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;section class=&quot;panel panel-dark full-panel&quot;&gt;
+  &lt;div class=&quot;row&quot; data-count=&quot;2&quot;&gt;
+    &lt;div class=&quot;panel-inside&quot;&gt;
+      &lt;h2&gt;The Position&lt;/h2&gt;
+
+      &lt;p class=&quot;intro&quot;&gt;We’re looking for an experienced front end web developer to join the Monkee-Boy team.&lt;/p&gt;
+
+      &lt;p&gt;Applicants should be able to independently handle the development of a website from start to finish, be it static templates, WordPress, or an unfamiliar CMS. This position involves working closely with both the design and maintenance teams. Projects range from individually-managed WordPress sites to collaborating with the full development team on larger customized projects. This is a full time position and will be required to work from the Monkee-Boy World Headquarters in beautiful Austin, Texas.&lt;/p&gt;
+
+      &lt;p&gt;The candidate will be competitively compensated based on work experience, demonstration of success, and other intangibles they bring to the table. They will be able to participate in all employee incentive programs.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;panel panel-highlight full-panel&quot;&gt;
+  &lt;div class=&quot;row&quot; data-count=&quot;3&quot;&gt;
+    &lt;div class=&quot;panel-inside&quot;&gt;
+      &lt;h2&gt;The Requirements&lt;/h2&gt;
+
+      &lt;p class=&quot;intro&quot;&gt;This is not a junior level position and we are looking for somebody with experience doing client work on a daily basis.&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Complete and up-to-date understanding of HTML, CSS, JavaScript, and jQuery.&lt;/li&gt;
+        &lt;li&gt;Experience with CSS preprocessors (we use scss, but we won’t hold it against you if you’ve been using less).&lt;/li&gt;
+        &lt;li&gt;Experience with responsive design, grid systems, and media queries. All of our projects are responsive and our breakpoints are based on the design, not devices. For the curious, we currently use Susy for our grid.&lt;/li&gt;
+        &lt;li&gt;Should be comfortable using build tools to automate parts of the workflow (our current setup includes gulp, bower, and yeoman, but changes when we need it to).&lt;/li&gt;
+        &lt;li&gt;An understanding and daily use of version control, preferably git.&lt;/li&gt;
+        &lt;li&gt;A basic understanding of PHP. We have back end developers but you will need to know your way around basic PHP to get the data in your templates.&lt;/li&gt;
+        &lt;li&gt;Strong knowledge of cross-browser and cross-device quirks along with knowing how to debug each browser and device (typically Android phones/tablets and iPhone/iPad).&lt;/li&gt;
+        &lt;li&gt;Should be able to code a custom jQuery plugin or advanced JavaScript functionality from scratch. &lt;/li&gt;
+        &lt;li&gt;A deep understanding of performance when it comes to your code. An example would be when to use CSS animations vs JavaScript along with best practices. We have an increasingly important goal around speed and performance for our projects. &lt;/li&gt;
+        &lt;li&gt;Enough experience with WordPress to build a custom theme with advanced functionality from scratch. Advanced functionality might include advanced custom post types and custom plugins. WordPress is only as secure as the plugins you use, we write our own.&lt;/li&gt;
+        &lt;li&gt;Working knowledge of common API’s like Google Maps, Twitter, Facebook, etc. It’s not unheard of to be asked to do some crazy things with Google Maps, so be prepared to dig deep into their API.&lt;/li&gt;
+        &lt;li&gt;Experience coding email templates (responsive or not). Should be familiar with MailChimp and/or Constant Contact.&lt;/li&gt;
+        &lt;li&gt;Should know their way around Photoshop. You don’t need to be a designer but you will be given PSD comps from the design team and have to cut them up as needed. Should also understand how to optimize images for the web from Photoshop (more then clicking “save for web”).&lt;/li&gt;
+        &lt;li&gt;A deep love for open source and contributing as much as you possibly can.&lt;/li&gt;
+        &lt;li&gt;A strong passion for learning new technologies and collaborating with a team.&lt;/li&gt;
+        &lt;li&gt;Great organization skills with the ability to manage and bounce between multiple projects in a day.&lt;/li&gt;
+        &lt;li&gt;Excellent communication skills in written, verbal, and documentation. You will have to communicate with clients either in meetings or through our ticketing system.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;panel panel-light full-panel&quot;&gt;
+  &lt;div class=&quot;row&quot; data-count=&quot;4&quot;&gt;
+    &lt;div class=&quot;panel-inside&quot;&gt;
+      &lt;h2&gt;The Extras&lt;/h2&gt;
+
+      &lt;p class=&quot;intro&quot;&gt;Each of the below will get you a +1 with us.&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;JavaScript unit testing. We are currently adding Mocha tests as part of our process.&lt;/li&gt;
+        &lt;li&gt;Know when jQuery is overkill and vanilla JavaScript will do the job with increased performance. Quick example is know why .hide() sucks.&lt;/li&gt;
+        &lt;li&gt;Familiarity with web app frameworks like Angular, Ember, Backbone, etc.&lt;/li&gt;
+        &lt;li&gt;Web accessibility, and not just alt tags. ARIA roles, skip links, transcripts, color contrast, etc. We say this is an extra but honestly you need to have a decent understand of accessibility to start with.&lt;/li&gt;
+        &lt;li&gt;A love for being creative with UI animations and trying new stuff out.&lt;/li&gt;
+        &lt;li&gt;Any skills or understanding of Python or Ruby, mostly concerning integrating templates in those languages not actually coding in them.&lt;/li&gt;
+        &lt;li&gt;Currently uses Vagrant daily.&lt;/li&gt;
+        &lt;li&gt;An unnatural love of Torchy’s breakfast tacos.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;panel panel-dark full-panel&quot;&gt;
+  &lt;div class=&quot;row&quot; data-count=&quot;5&quot;&gt;
+    &lt;div class=&quot;panel-inside&quot;&gt;
+      &lt;h2&gt;The Dev Team&lt;/h2&gt;
+
+      &lt;p class=&quot;intro&quot;&gt;This application process is not a one way street. It’s important not only for you to be a good fit for us but that we are a good fit for you. We won’t take it personally if you pass on us.&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;If you’ve browsed &lt;a href=&quot;http://www.monkee-boy.com/about/the-troop.php&quot;&gt;The Troop&lt;/a&gt; page you might already know that the development team consists of two front end developers, one back end developer, and two developers that can’t figure out if they like front end or back end best so they just do both.&lt;/li&gt;
+        &lt;li&gt;We love git. If you don’t, we feel pretty strongly that you’ll be convinced by your first lunch.&lt;/li&gt;
+        &lt;li&gt;On the front end side we use sass, gulp, jQuery, WordPress, Bower, Foundation, Susy and Vagrant.&lt;/li&gt;
+        &lt;li&gt;On the back end our language of choice is PHP. Some of us also have experience with Ruby on Rails and Python. None of us do ASP.&lt;/li&gt;
+        &lt;li&gt;Since we love git, you can imagine how we feel about GitHub. We actively try to contribute to open source where possible. From open sourcing some of our internal apps to submitting pull requests to projects we use. Our &lt;a href=&quot;https://github.com/Monkee-Boy&quot;&gt;profile&lt;/a&gt; speaks for itself.&lt;/li&gt;
+        &lt;li&gt;Outside of using WordPress we have some clients on SurrealCMS and are actively developing our own custom content management system (using CakePHP).&lt;/li&gt;
+        &lt;li&gt;We like to dabble when we can in things like Ember.js, Angular.js, Laravel, Jekyll, and more.&lt;/li&gt;
+        &lt;li&gt;Although the majority of the team works on Macs, you will be free to use whatever you are comfortable with.&lt;/li&gt;
+        &lt;li&gt;We love to collaborate. Whether it’s in the office throwing around new ideas, asking each other for help, or meeting up at a nearby coffee shop for a little change of scenery.&lt;/li&gt;
+        &lt;li&gt;Finally we are not alone in the jungle. We work intimately with an incredibly talented team.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;panel panel-highlight full-panel panel-culture&quot;&gt;
+  &lt;div class=&quot;row&quot; data-count=&quot;&quot;&gt;
+    &lt;div class=&quot;photogrid-wrapper&quot;&gt;
+      &lt;div class=&quot;photoset-grid-basic&quot; data-layout=&quot;232&quot;&gt;
+        &lt;img src=&quot;/images/culture/nerf.jpg&quot; width=&quot;640&quot; height=&quot;640&quot;&gt;
+        &lt;img src=&quot;/images/culture/coffeeshop.jpg&quot; width=&quot;640&quot; height=&quot;640&quot;&gt;
+        &lt;img src=&quot;/images/culture/homeslice.jpg&quot; width=&quot;640&quot; height=&quot;640&quot;&gt;
+        &lt;img src=&quot;/images/culture/icecream.jpg&quot; width=&quot;640&quot; height=&quot;640&quot;&gt;
+        &lt;img src=&quot;/images/culture/acl.jpg&quot; width=&quot;640&quot; height=&quot;640&quot;&gt;
+        &lt;img src=&quot;/images/culture/topgolf.jpg&quot; width=&quot;640&quot; height=&quot;640&quot;&gt;
+        &lt;img src=&quot;/images/culture/holidayparty.jpg&quot; width=&quot;640&quot; height=&quot;640&quot;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;panel-inside&quot;&gt;
+      &lt;h2&gt;The Culture&lt;/h2&gt;
+
+      &lt;p class=&quot;intro&quot;&gt;With a name like Monkee-Boy, what else would you expect?&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Past Monkee-Boy field trips include Pinballz Arcade, Top Golf, Texas State Capitol, Main Event, and more.&lt;/li&gt;
+        &lt;li&gt;Game Nights! Everything from Super Smash Bros to Team Fortress 2 and Munchkin to Cards Against Humanity.&lt;/li&gt;
+        &lt;li&gt;Need a break? Pick up one of over a dozen nerf guns and engage in a little friendly coworker carnage.&lt;/li&gt;
+        &lt;li&gt;Health Benefits Coverage - medical, vision, dental&lt;/li&gt;
+        &lt;li&gt;Short- and Long-Term Disability (after 3 months)&lt;/li&gt;
+        &lt;li&gt;Matching 401K (up to 3% of salary - after 6 months)&lt;/li&gt;
+        &lt;li&gt;Flexible dress and work environment&lt;/li&gt;
+        &lt;li&gt;Annual SXSW Interactive Badge&lt;/li&gt;
+        &lt;li&gt;Annual ACL Music Festival 3-Day Pass&lt;/li&gt;
+        &lt;li&gt;And lots more...&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;panel panel-light full-panel panel-apply&quot;&gt;
+  &lt;div class=&quot;row&quot; data-count=&quot;7&quot;&gt;
+    &lt;div class=&quot;panel-inside&quot;&gt;
+      &lt;h2&gt;The Application&lt;/h2&gt;
+
+      &lt;p&gt;&lt;strong&gt;Please note&lt;/strong&gt;: part of the application process is being creative and coding a kick ass weather widget. This is required for your application to be reviewed. The full details can be found at &lt;a href=&quot;http://codepen.io/fleeting/pen/azgZzx&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+
+      &lt;form method=&quot;POST&quot; action=&quot;/wufoo/wufoo-fed.php&quot; enctype=&quot;multipart/form-data&quot; class=&quot;job-application&quot;&gt;
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field1&quot;&gt;* Resume/CV&lt;/label&gt;
+          &lt;input type=&quot;file&quot; id=&quot;Field1&quot; name=&quot;Field1&quot; class=&quot;validate[required]&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field4&quot;&gt;* Full Name&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field4&quot; name=&quot;Field4&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field5&quot;&gt;* Email&lt;/label&gt;
+          &lt;input type=&quot;email&quot; class=&quot;form-control validate[required,custom[email]]&quot; id=&quot;Field5&quot; name=&quot;Field5&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field18&quot;&gt;* Phone&lt;/label&gt;
+          &lt;input type=&quot;tel&quot; class=&quot;form-control validate[required,custom[phone]]&quot; id=&quot;Field18&quot; name=&quot;Field18&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field22&quot;&gt;* Code Experiment (CodePen URL)&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field22&quot; name=&quot;Field22&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field21&quot;&gt;* Describe your daily tasks in your current position?&lt;/label&gt;
+          &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field21&quot; name=&quot;Field21&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+
+        &lt;h3&gt;Links&lt;/h3&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field8&quot;&gt;LinkedIn URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control validate[custom[url]]&quot; id=&quot;Field8&quot; name=&quot;Field8&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field9&quot;&gt;* GitHub/Bitbucket URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field9&quot; name=&quot;Field9&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field11&quot;&gt;Portfolio/Blog URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control validate[custom[url]]&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;form-group&quot;&gt;
+          &lt;label for=&quot;Field12&quot;&gt;Examples of your work/code (sites you have coded, CodePen, jsFiddle, personal projects, etc)&lt;/label&gt;
+          &lt;textarea class=&quot;form-control&quot; rows=&quot;7&quot; id=&quot;Field12&quot; name=&quot;Field12&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+
+         &lt;h3&gt;Additional Information&lt;/h3&gt;
+
+         &lt;div class=&quot;form-group&quot;&gt;
+           &lt;label for=&quot;Field14&quot;&gt;* Why are you interested in working at Monkee-Boy?&lt;/label&gt;
+           &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field14&quot; name=&quot;Field14&quot;&gt;&lt;/textarea&gt;
+         &lt;/div&gt;
+
+         &lt;div class=&quot;form-group&quot;&gt;
+           &lt;label for=&quot;Field20&quot;&gt;* Compensation Requirements (hourly or annually)&lt;/label&gt;
+           &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field20&quot; name=&quot;Field20&quot;&gt;
+         &lt;/div&gt;
+
+         &lt;div class=&quot;form-group&quot;&gt;
+           &lt;label for=&quot;Field16&quot;&gt;Anything else we should know?&lt;/label&gt;
+           &lt;textarea class=&quot;form-control&quot; rows=&quot;5&quot; id=&quot;Field16&quot; name=&quot;Field16&quot;&gt;&lt;/textarea&gt;
+         &lt;/div&gt;
+
+         &lt;input class=&quot;btn&quot; type=&quot;submit&quot; value=&quot;Apply&quot;&gt;
+       &lt;/form&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Mon, 09 Mar 2015 15:07:52 -0500</pubDate>
+        <link>http://jointhetroop.com/front-end-developer</link>
+        <guid isPermaLink="true">http://jointhetroop.com/front-end-developer</guid>
+        
+        
+        <category>closed</category>
         
       </item>
     
