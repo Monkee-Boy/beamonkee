@@ -71,11 +71,6 @@ ul, ol {
     background: url(/images/panel-start.jpg) no-repeat center center fixed;
     background-size: cover;
 
-    @media only screen and (max-width: 64.063em) {
-      padding-left: 0;
-      padding-right: 0;
-    }
-
     .panel-inside {
       width: 900px;
       float: none;
@@ -143,6 +138,13 @@ ul, ol {
 
     @media only screen and (max-width: 64.063em) {
       padding: 0 25px;
+    }
+
+    &.panel-start {
+      @media only screen and (max-width: 64.063em) {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
   }
 

@@ -443,10 +443,6 @@ ul, ol {
     overflow: hidden;
     background: url(/images/panel-start.jpg) no-repeat center center fixed;
     background-size: cover; }
-    @media only screen and (max-width: 64.063em) {
-      .wrapper .panel-start {
-        padding-left: 0;
-        padding-right: 0; } }
     .wrapper .panel-start .panel-inside {
       width: 900px;
       float: none;
@@ -492,6 +488,10 @@ ul, ol {
   @media only screen and (max-width: 64.063em) {
     .wrapper .panel {
       padding: 0 25px; } }
+  @media only screen and (max-width: 64.063em) {
+    .wrapper .panel.panel-start {
+      padding-left: 0;
+      padding-right: 0; } }
   .wrapper .row:before {
     position: absolute;
     z-index: 0;
