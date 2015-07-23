@@ -485,6 +485,9 @@ ul, ol {
           font-size: inherit; }
         .wrapper .panel-start h1 br {
           display: none; } }
+  @media only screen and (max-width: 64.063em) {
+    .wrapper .panel {
+      padding: 0 25px; } }
   .wrapper .row:before {
     position: absolute;
     z-index: 0;
