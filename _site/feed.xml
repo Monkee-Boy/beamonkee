@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 10:53:30 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 10:53:30 -0500</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2015 10:58:52 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2015 10:58:52 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -177,7 +177,7 @@
         &lt;h3&gt;Your Work&lt;/h3&gt;
 
         &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field9&quot;&gt;Portfolio / Blog URL&lt;/label&gt;
+          &lt;label for=&quot;Field9&quot;&gt;* Portfolio / Blog URL&lt;/label&gt;
           &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field9&quot; name=&quot;Field9&quot;&gt;
         &lt;/div&gt;
 
@@ -188,7 +188,7 @@
 
         &lt;div class=&quot;form-group&quot;&gt;
           &lt;label for=&quot;Field11&quot;&gt;Behance URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
         &lt;/div&gt;
 
         &lt;div class=&quot;form-group&quot;&gt;
