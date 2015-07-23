@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 10:39:21 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 10:39:21 -0500</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2015 10:53:30 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2015 10:53:30 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -174,17 +174,12 @@
           &lt;input type=&quot;tel&quot; class=&quot;form-control validate[required,custom[phone]]&quot; id=&quot;Field18&quot; name=&quot;Field18&quot;&gt;
         &lt;/div&gt;
 
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field22&quot;&gt;Code Experiment (CodePen URL) *not required, encouraged&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field22&quot; name=&quot;Field22&quot;&gt;
-        &lt;/div&gt;
+        &lt;h3&gt;Your Work&lt;/h3&gt;
 
         &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field21&quot;&gt;* Describe your daily tasks in your current position?&lt;/label&gt;
-          &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field21&quot; name=&quot;Field21&quot;&gt;&lt;/textarea&gt;
+          &lt;label for=&quot;Field9&quot;&gt;Portfolio / Blog URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field9&quot; name=&quot;Field9&quot;&gt;
         &lt;/div&gt;
-
-        &lt;h3&gt;Links&lt;/h3&gt;
 
         &lt;div class=&quot;form-group&quot;&gt;
           &lt;label for=&quot;Field8&quot;&gt;LinkedIn URL&lt;/label&gt;
@@ -192,17 +187,17 @@
         &lt;/div&gt;
 
         &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field9&quot;&gt;* GitHub/Bitbucket URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field9&quot; name=&quot;Field9&quot;&gt;
+          &lt;label for=&quot;Field11&quot;&gt;Behance URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
         &lt;/div&gt;
 
         &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field11&quot;&gt;Portfolio/Blog URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
+          &lt;label for=&quot;Field24&quot;&gt;Dribbble URL&lt;/label&gt;
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field24&quot; name=&quot;Field24&quot;&gt;
         &lt;/div&gt;
 
         &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field12&quot;&gt;* Examples of your work/code (sites you have coded, CodePen, jsFiddle, personal projects, etc)&lt;/label&gt;
+          &lt;label for=&quot;Field12&quot;&gt;* 3-5 Examples of your work (live sites, links to apps, favorite Behance projects, case studies, personal projects, etc)&lt;/label&gt;
           &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;7&quot; id=&quot;Field12&quot; name=&quot;Field12&quot;&gt;&lt;/textarea&gt;
         &lt;/div&gt;
 
@@ -211,16 +206,6 @@
          &lt;div class=&quot;form-group&quot;&gt;
            &lt;label for=&quot;Field14&quot;&gt;* Why are you interested in working at Monkee-Boy?&lt;/label&gt;
            &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field14&quot; name=&quot;Field14&quot;&gt;&lt;/textarea&gt;
-         &lt;/div&gt;
-
-         &lt;div class=&quot;form-group&quot;&gt;
-           &lt;label for=&quot;Field20&quot;&gt;* Compensation Requirements (hourly or annually)&lt;/label&gt;
-           &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field20&quot; name=&quot;Field20&quot;&gt;
-         &lt;/div&gt;
-
-         &lt;div class=&quot;form-group&quot;&gt;
-           &lt;label for=&quot;Field16&quot;&gt;Anything else we should know?&lt;/label&gt;
-           &lt;textarea class=&quot;form-control&quot; rows=&quot;5&quot; id=&quot;Field16&quot; name=&quot;Field16&quot;&gt;&lt;/textarea&gt;
          &lt;/div&gt;
 
          &lt;p style=&quot;font-size: 13px;&quot;&gt;By submitting this application, I understand that if my application is accepted that employment with this company at all times is employment &quot;by contract&quot;. It is further understood that this contractual relationship may not be changed by any verbal statements or by conduct unless an authorized executive of this company specifically acknowledges such change. I further understand that my contractual employment may be terminated at any time by this company or myself and includes no guarantee, contract, or promise of employment for any specific length of time.&lt;/p&gt;
