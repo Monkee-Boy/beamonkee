@@ -136,6 +136,9 @@ ul, ol {
 
   .panel {
 
+    @media only screen and (max-width: 64.063em) {
+      padding: 0 25px;
+    }
   }
 
   .row {
