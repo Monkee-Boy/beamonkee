@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 13:14:10 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 13:14:10 -0500</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2015 11:37:41 -0400</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2015 11:37:41 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -43,7 +43,11 @@
 
       &lt;p class=&quot;intro&quot;&gt;We’re looking for a Creative Director to join the Monkee-Boy team.&lt;/p&gt;
 
-      &lt;p&gt;Monkee-Boy’s Creative Director serves as the principal creative lead for the company and manages a small team of designers across multiple accounts. The Creative Director is responsible for directing all phases of creative work from concept development through production, for inspiring and motivating creative teams, and is accountable for maintaining a high quality of work at all times. This is a full time position and will be required to work from the Monkee-Boy World Headquarters in beautiful Austin, Texas.&lt;/p&gt;
+      &lt;p&gt;Monkee-Boy’s Creative Director serves as the principal creative lead for the company and manages a small team of designers across multiple accounts. The Creative Director is responsible for directing all phases of creative work from concept development through production, for inspiring and motivating creative teams, and is accountable for maintaining a high quality of work at all times.&lt;/p&gt;
+
+      &lt;p&gt;The ideal Creative Director candidate is passionate about design, innovation, leadership and process. On a day-to-day basis this means dedicating 40% of time to exceptional project work, 40% to managerial duties such as refining processes and delegating work, and 20% to mentorship through design reviews, project support, and driving professional development.&lt;/p&gt;
+
+      &lt;p&gt;This is a full time position and will be required to work from the Monkee-Boy World Headquarters in beautiful Austin, Texas.&lt;/p&gt;
 
       &lt;p&gt;The candidate will be competitively compensated based on work experience, demonstration of success, and other intangibles they bring to the table. They will be able to participate in all employee incentive programs.&lt;/p&gt;
     &lt;/div&gt;
@@ -200,6 +204,16 @@
          &lt;h3&gt;Additional Information&lt;/h3&gt;
 
          &lt;div class=&quot;form-group&quot;&gt;
+           &lt;label for=&quot;Field30&quot;&gt;Have you ever managed a team of designers? If so, how large was your team?&lt;/label&gt;
+           &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field30&quot; name=&quot;Field30&quot;&gt;
+         &lt;/div&gt;
+
+         &lt;div class=&quot;form-group&quot;&gt;
+           &lt;label for=&quot;Field32&quot;&gt;What is your ideal balance of managing, working on projects, and mentoring?&lt;/label&gt;
+           &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field32&quot; name=&quot;Field32&quot;&gt;
+         &lt;/div&gt;
+
+         &lt;div class=&quot;form-group&quot;&gt;
            &lt;label for=&quot;Field14&quot;&gt;* Why are you interested in working at Monkee-Boy?&lt;/label&gt;
            &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field14&quot; name=&quot;Field14&quot;&gt;&lt;/textarea&gt;
          &lt;/div&gt;
@@ -219,7 +233,7 @@
   &lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 23 Jul 2015 06:15:04 -0500</pubDate>
+        <pubDate>Thu, 23 Jul 2015 07:15:04 -0400</pubDate>
         <link>http://jointhetroop.com/creative-director</link>
         <guid isPermaLink="true">http://jointhetroop.com/creative-director</guid>
         
@@ -437,7 +451,7 @@
   &lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 23 Jul 2015 05:32:25 -0500</pubDate>
+        <pubDate>Thu, 23 Jul 2015 06:32:25 -0400</pubDate>
         <link>http://jointhetroop.com/ux-ui-designer</link>
         <guid isPermaLink="true">http://jointhetroop.com/ux-ui-designer</guid>
         
@@ -676,7 +690,7 @@
   &lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 09 Apr 2015 15:07:52 -0500</pubDate>
+        <pubDate>Thu, 09 Apr 2015 16:07:52 -0400</pubDate>
         <link>http://jointhetroop.com/front-end-developer</link>
         <guid isPermaLink="true">http://jointhetroop.com/front-end-developer</guid>
         
@@ -838,7 +852,7 @@
   &lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Thu, 26 Mar 2015 15:07:52 -0500</pubDate>
+        <pubDate>Thu, 26 Mar 2015 16:07:52 -0400</pubDate>
         <link>http://jointhetroop.com/digital-project-manager</link>
         <guid isPermaLink="true">http://jointhetroop.com/digital-project-manager</guid>
         
@@ -997,7 +1011,7 @@
   &lt;/div&gt;
 &lt;/section&gt;
 </description>
-        <pubDate>Tue, 17 Feb 2015 14:07:52 -0600</pubDate>
+        <pubDate>Tue, 17 Feb 2015 15:07:52 -0500</pubDate>
         <link>http://jointhetroop.com/junior-front-end-developer</link>
         <guid isPermaLink="true">http://jointhetroop.com/junior-front-end-developer</guid>
         
