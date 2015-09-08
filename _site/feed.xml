@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jointhetroop.com/</link>
     <atom:link href="http://jointhetroop.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Aug 2015 11:06:33 -0400</pubDate>
-    <lastBuildDate>Thu, 13 Aug 2015 11:06:33 -0400</lastBuildDate>
+    <pubDate>Tue, 08 Sep 2015 12:21:14 -0400</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2015 12:21:14 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -250,7 +250,8 @@
       &lt;h1&gt;Do you have what it takes&lt;br /&gt;
         &lt;span&gt;to be&lt;/span&gt;
         our next UX/UI&lt;br /&gt;
-        &lt;strong&gt;Designer?&lt;/strong&gt;&lt;/h1&gt;
+        &lt;strong&gt;Designer?&lt;/strong&gt;&lt;br /&gt;
+        This position has been filled.&lt;/h1&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;
@@ -386,67 +387,7 @@
     &lt;div class=&quot;panel-inside&quot;&gt;
       &lt;h2&gt;The Application&lt;/h2&gt;
 
-      &lt;form method=&quot;POST&quot; action=&quot;/wufoo/wufoo-uxui-designer.php&quot; enctype=&quot;multipart/form-data&quot; class=&quot;job-application&quot;&gt;
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field1&quot;&gt;* Resume/CV&lt;/label&gt;
-          &lt;input type=&quot;file&quot; id=&quot;Field1&quot; name=&quot;Field1&quot; class=&quot;validate[required]&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field4&quot;&gt;* Full Name&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field4&quot; name=&quot;Field4&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field5&quot;&gt;* Email&lt;/label&gt;
-          &lt;input type=&quot;email&quot; class=&quot;form-control validate[required,custom[email]]&quot; id=&quot;Field5&quot; name=&quot;Field5&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field18&quot;&gt;* Phone&lt;/label&gt;
-          &lt;input type=&quot;tel&quot; class=&quot;form-control validate[required,custom[phone]]&quot; id=&quot;Field18&quot; name=&quot;Field18&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;h3&gt;Your Work&lt;/h3&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field9&quot;&gt;* Portfolio / Blog URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control validate[required]&quot; id=&quot;Field9&quot; name=&quot;Field9&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field8&quot;&gt;LinkedIn URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field8&quot; name=&quot;Field8&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field11&quot;&gt;Behance URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field11&quot; name=&quot;Field11&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field24&quot;&gt;Dribbble URL&lt;/label&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Field24&quot; name=&quot;Field24&quot;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;label for=&quot;Field12&quot;&gt;* 3-5 Examples of your work (live sites, links to apps, favorite Behance projects, case studies, personal projects, etc)&lt;/label&gt;
-          &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;7&quot; id=&quot;Field12&quot; name=&quot;Field12&quot;&gt;&lt;/textarea&gt;
-        &lt;/div&gt;
-
-         &lt;h3&gt;Additional Information&lt;/h3&gt;
-
-         &lt;div class=&quot;form-group&quot;&gt;
-           &lt;label for=&quot;Field14&quot;&gt;* Why are you interested in working at Monkee-Boy?&lt;/label&gt;
-           &lt;textarea class=&quot;form-control validate[required]&quot; rows=&quot;5&quot; id=&quot;Field14&quot; name=&quot;Field14&quot;&gt;&lt;/textarea&gt;
-         &lt;/div&gt;
-
-         &lt;p style=&quot;font-size: 13px;&quot;&gt;By submitting this application, I understand that if my application is accepted that employment with this company at all times is employment &quot;by contract&quot;. It is further understood that this contractual relationship may not be changed by any verbal statements or by conduct unless an authorized executive of this company specifically acknowledges such change. I further understand that my contractual employment may be terminated at any time by this company or myself and includes no guarantee, contract, or promise of employment for any specific length of time.&lt;/p&gt;
-
-         &lt;p style=&quot;font-size: 13px;&quot;&gt;I understand that the first 90 days of employment is a new-hire introductory period at which time my involvement with Monkee-Boy can be terminated at any time. I can also choose to end my involvement at any point during this trial period as well.&lt;/p&gt;
-
-         &lt;input class=&quot;btn&quot; type=&quot;submit&quot; value=&quot;Apply&quot;&gt;
-       &lt;/form&gt;
+      &lt;p&gt;We are no longer accepting applications for this position. After receiving lots of great applications we have filled the position. Thanks to everyone who took an interest in Monkee-Boy and this position.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;
@@ -456,7 +397,7 @@
         <guid isPermaLink="true">http://jointhetroop.com/ux-ui-designer</guid>
         
         
-        <category>open</category>
+        <category>closed</category>
         
       </item>
     
