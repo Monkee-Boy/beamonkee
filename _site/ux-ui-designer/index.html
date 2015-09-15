@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>UX/UI Designer</title>
-  <meta name="description" content="            Do you have what it takes        to be        our next UX/UI        Designer?        This position has been filled.      ">
+  <meta name="description" content="            Do you have what it takes        to be        our next UX/UI        Designer?      ">
 
   <link rel="canonical" href="http://jointhetroop.com/ux-ui-designer">
   <link rel="alternate" type="application/rss+xml" title="Join The Monkee-Boy Troop" href="http://jointhetroop.com/feed.xml" />
@@ -53,8 +53,7 @@
       <h1>Do you have what it takes<br />
         <span>to be</span>
         our next UX/UI<br />
-        <strong>Designer?</strong><br />
-        This position has been filled.</h1>
+        <strong>Designer?</strong></h1>
     </div>
   </div>
 </section>
@@ -190,7 +189,67 @@
     <div class="panel-inside">
       <h2>The Application</h2>
 
-      <p>We are no longer accepting applications for this position. After receiving lots of great applications we have filled the position. Thanks to everyone who took an interest in Monkee-Boy and this position.</p>
+      <form method="POST" action="/wufoo/wufoo-uxui-designer.php" enctype="multipart/form-data" class="job-application">
+        <div class="form-group">
+          <label for="Field1">* Resume/CV</label>
+          <input type="file" id="Field1" name="Field1" class="validate[required]">
+        </div>
+
+        <div class="form-group">
+          <label for="Field4">* Full Name</label>
+          <input type="text" class="form-control validate[required]" id="Field4" name="Field4">
+        </div>
+
+        <div class="form-group">
+          <label for="Field5">* Email</label>
+          <input type="email" class="form-control validate[required,custom[email]]" id="Field5" name="Field5">
+        </div>
+
+        <div class="form-group">
+          <label for="Field18">* Phone</label>
+          <input type="tel" class="form-control validate[required,custom[phone]]" id="Field18" name="Field18">
+        </div>
+
+        <h3>Your Work</h3>
+
+        <div class="form-group">
+          <label for="Field9">* Portfolio / Blog URL</label>
+          <input type="text" class="form-control validate[required]" id="Field9" name="Field9">
+        </div>
+
+        <div class="form-group">
+          <label for="Field8">LinkedIn URL</label>
+          <input type="text" class="form-control" id="Field8" name="Field8">
+        </div>
+
+        <div class="form-group">
+          <label for="Field11">Behance URL</label>
+          <input type="text" class="form-control" id="Field11" name="Field11">
+        </div>
+
+        <div class="form-group">
+          <label for="Field24">Dribbble URL</label>
+          <input type="text" class="form-control" id="Field24" name="Field24">
+        </div>
+
+        <div class="form-group">
+          <label for="Field12">* 3-5 Examples of your work (live sites, links to apps, favorite Behance projects, case studies, personal projects, etc)</label>
+          <textarea class="form-control validate[required]" rows="7" id="Field12" name="Field12"></textarea>
+        </div>
+
+         <h3>Additional Information</h3>
+
+         <div class="form-group">
+           <label for="Field14">* Why are you interested in working at Monkee-Boy?</label>
+           <textarea class="form-control validate[required]" rows="5" id="Field14" name="Field14"></textarea>
+         </div>
+
+         <p style="font-size: 13px;">By submitting this application, I understand that if my application is accepted that employment with this company at all times is employment "by contract". It is further understood that this contractual relationship may not be changed by any verbal statements or by conduct unless an authorized executive of this company specifically acknowledges such change. I further understand that my contractual employment may be terminated at any time by this company or myself and includes no guarantee, contract, or promise of employment for any specific length of time.</p>
+
+         <p style="font-size: 13px;">I understand that the first 90 days of employment is a new-hire introductory period at which time my involvement with Monkee-Boy can be terminated at any time. I can also choose to end my involvement at any point during this trial period as well.</p>
+
+         <input class="btn" type="submit" value="Apply">
+       </form>
     </div>
   </div>
 </section>
