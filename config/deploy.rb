@@ -38,8 +38,8 @@ namespace :deploy do
   desc 'mBoy Deployment Steps'
   Mboy.deploy_steps
 
-  #desc 'mBoy HipChat Notifications'
-  #Mboy.hipchat_notify
+  desc 'mBoy HipChat Notifications'
+  Mboy.hipchat_notify
 
 end
 
