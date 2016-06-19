@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '<4.0.0'
+lock '3.5.0'
 
 # Load up the mBoy gem
 Mboy.new() # Setting initial defaults.
@@ -35,9 +35,6 @@ namespace :deploy do
   desc 'Tag this release in git.'
   Mboy.tag_release
 
-  desc 'mBoy Deployment Steps'
-  Mboy.deploy_steps
-
   desc 'mBoy HipChat Notifications'
   Mboy.hipchat_notify
 
@@ -54,37 +51,12 @@ namespace :build do
     end
   end
 
-  desc 'Additional deploy steps for :build'
-  before :npm, :deploy_step_beforenpm do
-    on roles(:all) do
-      print 'Updating node modules......'
-    end
-  end
-
-  after :npm, :deploy_step_afternpm do
-    on roles(:all) do
-      puts '✔'.green
-    end
-  end
-
   desc 'Install/update bower components.'
   task :bower do
     on roles(:web) do
       within release_path do
         execute :bower, 'install' # install components
       end
-    end
-  end
-
-  before :bower, :deploy_step_beforebower do
-    on roles(:all) do
-      print 'Updating bower components......'
-    end
-  end
-
-  after :bower, :deploy_step_afterbower do
-    on roles(:all) do
-      puts '✔'.green
     end
   end
 
